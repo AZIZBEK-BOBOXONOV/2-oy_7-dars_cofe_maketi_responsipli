@@ -1,0 +1,134 @@
+.work {
+  padding-bottom: 200px;
+}
+
+.work__container {
+  max-width: 1045px;
+}
+
+.work__number-text {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+  margin-bottom: 39px;
+}
+.work__container {
+  max-width: 1050px;
+}
+.work__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.work__inner-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work__span {
+  width: 760px;
+  height: 1px;
+  border: 2px solid #fdd6ba;
+  display: inline-block;
+  margin-bottom: 82px;
+}
+.work__inner-item {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #0e8784;
+  background: #fefcf7;
+  margin-top: -10px;
+}
+.work__inner-text {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 95px;
+}
+
+.work__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 42px;
+  color: #333d4b;
+}
+.work__item {
+  max-width: 285px;
+}
+.work__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+@media only screen and (max-width: 1017px) {
+  .work__inner-text {
+    margin-bottom: 40px;
+  }
+  .work__inner-list {
+    margin-bottom: 48px;
+  }
+  .work__text {
+    max-width: 222px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .work__span {
+    width: 467px;
+    height: 2px;
+    margin-bottom: 62px;
+  }
+  .work__inner-item {
+    width: 31px;
+    height: 31px;
+    margin-top: -15px;
+  }
+  .work__number-text {
+    margin-bottom: 42px;
+  }
+  .work__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .work__item {
+    max-width: 223px;
+  }
+  .work__list {
+    margin-bottom: 44px;
+  }
+  .work {
+    padding-bottom: 144px;
+  }
+}
+@media only screen and (max-width: 717px) {
+  .work__inner-list,
+  .work__span {
+    display: none;
+  }
+  .work__list {
+    flex-direction: column;
+  }
+  .work__item {
+    max-width: 325px;
+    margin-bottom: 56px;
+  }
+  .work__text {
+    max-width: none;
+  }
+  .work__container {
+    text-align: center;
+  }
+  .work__number-text , .work__title {
+    margin-bottom: 24px;
+  }
+}

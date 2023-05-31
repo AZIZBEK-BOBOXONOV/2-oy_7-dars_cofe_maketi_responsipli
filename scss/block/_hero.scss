@@ -1,0 +1,81 @@
+.hero {
+  padding-bottom: 123px;
+}
+.hero__block {
+  padding: 117px 0;
+  background-repeat: no-repeat;
+  background-image: url("../../img/cofe.png");
+  border-radius: 10px;
+}
+.hero__content {
+  padding-left: 85px;
+}
+.hero__title {
+  font-family: $font;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  max-width: 493px;
+  margin-bottom: 32px;
+}
+.hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  max-width: 445px;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+.hero__link {
+  font-family: $font;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fefcf7;
+  background: #0e8784;
+  border-radius: 6px;
+  padding: 15px 30px;
+}
+
+@media only screen and (max-width: 934px) {
+  .hero__block {
+    background-image: url("../../img/cofe2.jpg");
+    background-position-x: right;
+    background-size: cover;
+  }
+  .hero__title {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 329px;
+  }
+  .hero__text {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 398px;
+  }
+}
+@media only screen and (max-width: 554px) {
+  .hero__block {
+    background-image: url("../../img/cofe3.jpg");
+  }
+  .hero__block {
+    padding: 100px 0;
+  }
+  .hero__content {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 100%;
+  }
+  .hero__text {
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
