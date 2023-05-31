@@ -161,6 +161,9 @@ body {
   .site-header__logo {
     max-width: 163px;
   }
+  .site-header {
+    padding: 0;
+  }
 }
 .hero {
   padding-bottom: 123px;
